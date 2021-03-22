@@ -1,13 +1,14 @@
-# Landing Page Project
 
-## Table of Contents
+our steps
 
-* [Instructions](#instructions)
+first of all we added fourth section as required 
 
-## Instructions
+then the decliration of the global variables in javascript
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+then creating list items and anchors then appending both stored in a fragment
 
-To get started, open `js/app.js` and start building out the app's functionality
+now we have our links appended in the screen then we added a addEventListener() to the window to give the selected section background using the getBpundingClientRect() method by giving the viewed section an active class called(your-active-class) 
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+then we selected every link to check if the data-nav equals to the textcontent of the links if true give that link a gray background
+
+then we used media query to make the landing page responsive with phones,tablets,desktops.
